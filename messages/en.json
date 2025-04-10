@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "HeroSection": "START YOUR JOURNEY"
+  },
+  "Navigation" : {
+    "Home" : "Home",
+    "Class" : "Class",
+    "Contact": "Contact",
+    "CTA": "Free Trial"
+  }
+}

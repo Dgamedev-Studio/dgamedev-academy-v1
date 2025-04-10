@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "HeroSection": "START YOUR JOURNEY"
+  },
+  "Navigation" : {
+    "Home" : "Beranda",
+    "Class" : "Kelas",
+    "Contact": "Kontak",
+    "CTA": "Coba Gratis"
+  }
+}
