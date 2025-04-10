@@ -1,4 +1,4 @@
-// ✅ Sudah Diperbaiki: app/[locale]/layout.tsx
+
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
@@ -24,15 +24,11 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className='mx-8 my-4'>
-            <Navbar />
-            {children}
-          </div>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider locale={locale} messages={messages}>
+    <div className='mx-8 my-4'>
+      <Navbar />
+      {children}
+    </div>
+  </NextIntlClientProvider>
   );
 }

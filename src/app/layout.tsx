@@ -17,11 +17,17 @@ export const metadata = {
   title: 'Dgamedev Academy',
   description: 'Dgamedev Academy - Learn Fun Programming',
   keywords: 'Dgamedev, Academy, Programming, Fun, Learn, Education, Coding, Kids Programming',
-}
+};
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+  params
+}: {
+  children: React.ReactNode;
+  params: { locale: string }
+}) {
   return (
-    <html lang="en">
+    <html lang={params.locale}>
       <body className={`${poppins.variable} ${anton.variable} font-sans`}>
         {children}
       </body>
