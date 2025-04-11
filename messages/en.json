@@ -1,7 +1,16 @@
 {
   "HomePage": {
     "HeroSection": "START YOUR JOURNEY",
-    "Button": "Explore Classes"
+    "Button": "Explore Classes",
+    "WhyChooseUs": {
+      "Title": "Why Choose Dgamedev",
+      "why-one" : "Project-Based Learning",
+      "why-two" : "Mentor & Facilitator Support 24/7",
+      "why-three" : "Interactive & Enjoyable Curriculum",
+      "why-four" : "Flexible Schedule & Rescheduling Options",
+      "why-five" : "Lifetime Access to Learning Materials",
+      "CTA": "View Curriculum"
+    }
   },
   "Navigation" : {
     "Home" : "Home",
