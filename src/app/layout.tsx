@@ -18,6 +18,9 @@ export const metadata = {
   description: 'Dgamedev Academy - Learn Fun Programming',
   keywords: 'Dgamedev, Academy, Programming, Fun, Learn, Education, Coding, Kids Programming',
   authors: [{ name: 'Dgamedev Academy' }],
+  icons: {
+    icon: '/assets/Logo.png', 
+  },
   creator: 'Dgamedev Academy',
   publisher: 'Dgamedev Academy',
   openGraph: {

@@ -11,7 +11,7 @@ export default function Navbar() {
   const t = useTranslations('Navigation');
 
   return (
-    <header className="px-[40px] container max-w-screen mx-auto relative pt-0 z-10">
+    <header className="px-[40px] container max-w-screen mx-auto relative pt-0 z-10 my-4">
       <nav className="flex flex-wrap items-center justify-between bg-white p-[15px_30px] rounded-[20px] gap-y-3">
         <div className="flex items-center gap-8 ">
           <div className="flex shrink-0 overflow-hidden">

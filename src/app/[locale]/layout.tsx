@@ -25,7 +25,7 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-    <div className='mx-8 my-4'>
+    <div>
       <Navbar />
       {children}
     </div>
