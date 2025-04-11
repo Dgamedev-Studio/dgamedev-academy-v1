@@ -1,6 +1,7 @@
 import {useTranslations} from 'next-intl';
 import Image from 'next/image';
 
+
 export default function HomePage() {
   const t = useTranslations('HomePage');
   return (
@@ -18,10 +19,10 @@ export default function HomePage() {
       
       {/* Konten teks */}
       <div className='relative z-10 pt-20 flex justify-center flex-col'>
-        <p className='text-white text-[200px] font-secondary text-center leading-[188px]'>START YOUR JOURNEY</p>
+        <p className='text-white text-[200px] font-secondary text-center leading-[188px]'>{t('HeroSection')}</p>
         <div className="pt-20 items-center justify-center flex">
         <button className='text-blue-500 text-[32px] font-main font-medium text-center bg-white rounded-full py-2 px-8 hover:bg-blue-600 hover:text-white transition duration-300'>
-          Lihat Kelas
+        {t('Button')}
         </button>
         </div>
       </div>

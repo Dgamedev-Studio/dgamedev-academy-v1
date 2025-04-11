@@ -1,6 +1,7 @@
 {
   "HomePage": {
-    "HeroSection": "START YOUR JOURNEY"
+    "HeroSection": "START YOUR JOURNEY",
+    "Button": "Explore Classes"
   },
   "Navigation" : {
     "Home" : "Home",

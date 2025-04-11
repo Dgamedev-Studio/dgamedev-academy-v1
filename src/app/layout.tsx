@@ -17,6 +17,23 @@ export const metadata = {
   title: 'Dgamedev Academy',
   description: 'Dgamedev Academy - Learn Fun Programming',
   keywords: 'Dgamedev, Academy, Programming, Fun, Learn, Education, Coding, Kids Programming',
+  authors: [{ name: 'Dgamedev Academy' }],
+  creator: 'Dgamedev Academy',
+  publisher: 'Dgamedev Academy',
+  openGraph: {
+    title: 'Dgamedev Academy',
+    description: 'Dgamedev Academy - Learn Fun Programming',
+    url: '',
+    siteName: 'Dgamedev Academy',
+    images: [
+      {
+        url: '/assets/Logo-2.png',
+        width: 1200,
+        height: 630,
+        alt: 'Dgamedev Academy - Learn Fun Programming',
+      },
+    ],
+  }
 };
 
 export default function RootLayout({
