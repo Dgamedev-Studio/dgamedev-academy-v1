@@ -21,12 +21,12 @@ export default function HomePage() {
         </div>
 
         {/* Konten teks */}
-        <div className="relative z-10 pt-[90px] flex justify-center flex-col">
+        <div className="relative z-10 pt-[190px] flex justify-center flex-col">
           <p className="text-white text-[200px] font-secondary font-light text-center leading-[188px]">
             {t("HeroSection")}
           </p>
           <div className="pt-[90px] items-center justify-center flex">
-            <button className="text-blue-500 text-[32px] font-main font-medium text-center bg-white rounded-full py-2 px-8 hover:bg-blue-600 hover:text-white transition duration-300">
+            <button className="text-blue-500 text-[32px] font-main font-medium text-center bg-white rounded-full py-2 px-8 hover:bg-blue-600 hover:text-white transition duration-300 cursor-pointer">
               {t("Button")}
             </button>
           </div>
@@ -35,7 +35,7 @@ export default function HomePage() {
       <div className="runningText mt-[90px]">
         <MarqueeSection />
       </div>
-      <div className="ContentWrapper bg-white w-full  h-screen rounded-t-[70px] mt-[56px]">
+      <div className="ContentWrapper bg-[#F5F6FB] w-full  h-screen rounded-t-[70px] mt-[56px]">
       <div className="WhyUs mx-12  flex flex-col md:flex-row pt-[125px] justify-center items-center gap-[48px]">
         <div className="ImageWrapper md:w-1/2">
           {/* <Image
@@ -84,7 +84,7 @@ export default function HomePage() {
               </div>
                 <p className="text-[var(--font-color)] font-medium font-main text-xl">{t("WhyChooseUs.why-five")}</p>
               </div>
-              <button className="bg-blue-500 rounded-full py-3 px-8 mt-4 hover:bg-blue-600 transition duration-300">
+              <button className="bg-blue-500 rounded-full py-3 px-8 mt-4 hover:bg-blue-600 transition duration-300 cursor-pointer">
                 <p className="text-white font-medium text-xl font-main">{t("WhyChooseUs.CTA")}</p>
               </button>
             </div>

@@ -13,14 +13,14 @@ export default function LocaleSwitcher() {
   };
 
   return (
-    <div className='flex items-center gap-2'>
+    <div className='flex items-center'>
       {/* Ganti Globe dengan gambar bendera sesuai locale aktif */}
       <Image 
         src={flagImages[locale as keyof typeof flagImages]}
         alt={`${locale} flag`}
         width={20}
         height={15}
-        className="h-4 w-5 object-cover"
+        className="h-5 w-5 object-cover"
       />
       
       <LocaleSwitcherSelect defaultValue={locale} label='Select a locale'>
