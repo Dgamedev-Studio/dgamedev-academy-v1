@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 px-[20px] container max-w-screen mx-auto z-50 my-4">
-      <nav className="flex items-center justify-between bg-white p-4 md:p-[15px_30px] rounded-[20px]">
+       <nav className="flex items-center justify-between bg-white px-4 py-3  rounded-[20px]">
         {/* Left Section (Logo + Menu) */}
         <div className="flex items-center gap-8">
           {/* Logo */}
@@ -65,7 +65,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden mt-3 bg-white p-4 rounded-xl shadow-lg space-y-4">
+        <div className="md:hidden mt-3 bg-white p-5 rounded-xl shadow-lg space-y-4">
           <ul className="flex flex-col gap-4 text-base font-main font-semibold">
             <li>
               <Link href={`#`} onClick={toggleMenu}>

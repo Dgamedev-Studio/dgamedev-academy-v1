@@ -3,13 +3,17 @@
     "HeroSection": "START YOUR JOURNEY",
     "Button": "Lihat Kelas",
     "WhyChooseUs": {
-      "Title": "Kenapa Harus di Dgamedev",
+      "Title": "Kenapa Harus Dgamedev ",
       "why-one" : "Pembelajaran Berbasis Proyek",
-      "why-two" : "Dampingan Fasilitator & Mentor Tersedia 24/7 ",
+      "why-two" : "Fasilitator & Mentor Siap 24/7 ",
       "why-three" : "Kelas Interaktif & Menyenangkan",
       "why-four" : "Flexsibel & Bisa Resechdule Kelas",
       "why-five" : "Akses Materi Selamanya",
       "CTA": "lihat Kurikulum"
+    },
+    "Course": {
+      "Title": "Kelas Kami - Pilih Jalur Belajarmu!",
+      "Description": "Di DGameDev Academy, kami menyediakan berbagai kelas yang dirancang khusus untuk semua level. Kamu mau mulai dari nol atau ingin memperdalam skill coding? Kami punya pilihan yang tepat untukmu!"
     }
   },
   "Navigation" : {

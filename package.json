@@ -12,6 +12,7 @@
     "@heroui/react": "^2.7.6-beta.2",
     "@radix-ui/react-select": "^2.1.7",
     "lucide-react": "^0.487.0",
+    "motion": "^12.6.5",
     "next": "15.2.5",
     "next-intl": "^4.0.2",
     "react": "^19.0.0",
