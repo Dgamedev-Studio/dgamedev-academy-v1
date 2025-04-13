@@ -13,7 +13,13 @@
     },
     "Course": {
       "Title": "Kelas Kami - Pilih Jalur Belajarmu!",
-      "Description": "Di DGameDev Academy, kami menyediakan berbagai kelas yang dirancang khusus untuk semua level. Kamu mau mulai dari nol atau ingin memperdalam skill coding? Kami punya pilihan yang tepat untukmu!"
+      "Description": "Di DGameDev Academy, kami menyediakan berbagai kelas yang dirancang khusus untuk semua level. Kamu mau mulai dari nol atau ingin memperdalam skill coding? Kami punya pilihan yang tepat untukmu!",
+      "Level": {
+        "All": "Semua Level Kelas",
+        "Junior": "Junior Engineer",
+        "Middle": "Middle Engineer",
+        "Senior": "Senior Engineer"
+      }
     }
   },
   "Navigation" : {

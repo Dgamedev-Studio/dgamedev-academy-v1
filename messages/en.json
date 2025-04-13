@@ -13,7 +13,13 @@
     },
     "Course": {
       "Title": "Our Classes - Choose Your Learning Path!",
-      "Description": "At DGameDev Academy, we offer a variety of classes designed for all levels. Whether you want to start from scratch or deepen your coding skills? We have the perfect option for you!"
+      "Description": "At DGameDev Academy, we offer a variety of classes designed for all levels. Whether you want to start from scratch or deepen your coding skills? We have the perfect option for you!",
+        "Level": {
+          "All": "All Levels",
+          "Junior": "Junior Engineer",
+          "Middle": "Middle Engineer",
+          "Senior": "Senior Engineer"
+        }
     }
   },
   "Navigation" : {

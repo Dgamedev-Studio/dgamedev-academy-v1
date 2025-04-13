@@ -1,9 +1,21 @@
+'use client'
+
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import MarqueeSection from "./_components/ui/marquee";
+import {useState} from "react";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
+  const [selectedLevelId, setSelectedLevelId] = useState(1); // 1 = Semua Level
+
+  const levels = [
+    { id: 1, label: t("Course.Level.All") },
+    { id: 2, label: t("Course.Level.Junior") },
+    { id: 3, label: t("Course.Level.Middle") },
+    { id: 4, label: t("Course.Level.Senior") },
+  ];
+
   return (
     <div className="relative min-h-screen ">
       <div className="HeroSection mx-1 md:mx-8">
@@ -100,9 +112,28 @@ export default function HomePage() {
               </span>
             </h1>
           </div>
-          <h1 className="font-medium text-md md:text-xl text-[var(--font-color)] font-main md:text-center pt-2 md:pt-4 max-w-4xl mx-auto whitespace-pre-line">
-            {t("Course.Description")} 
-          </h1>
+          <p className="font-medium text-md md:text-xl text-[var(--font-color)] font-main md:text-center pt-4 md:pt-4 max-w-4xl mx-auto whitespace-pre-line">
+            {t("Course.Description")}
+          </p>
+          <div className="pt-4 flex flex-wrap justify-center gap-4 max-w-xl">
+            {levels.map((level) => (
+              <button
+                key={level.id}
+                onClick={() => setSelectedLevelId(level.id)}
+                className={`border px-2 md:px-6 py-2 rounded-3xl font-bold text-sm font-main transition 
+                  ${
+                    selectedLevelId === level.id
+                      ? "bg-[#DCEAFB] text-[#007AFF] border-[#007AFF]"
+                      : "border-[#DCEAFB] text-[#007AFF] hover:bg-[#DCEAFB]"
+                  }
+                  w-[calc(50%-0.5rem)] sm:w-[calc(33.333%-0.5rem)] md:w-auto
+                `}
+              >
+                {level.label}
+              </button>
+            ))}
+          </div>
+
         </div>
       </div>
       </div>
