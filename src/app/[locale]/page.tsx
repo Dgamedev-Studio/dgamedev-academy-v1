@@ -115,25 +115,140 @@ export default function HomePage() {
           <p className="font-medium text-md md:text-xl text-[var(--font-color)] font-main md:text-center pt-4 md:pt-4 max-w-4xl mx-auto whitespace-pre-line">
             {t("Course.Description")}
           </p>
-          <div className="pt-4 flex flex-wrap justify-center gap-4 max-w-xl">
+          <div className="pt-6 flex flex-wrap lg:flex-nowrap justify-center gap-4 max-w-xl md:max-w-max">
             {levels.map((level) => (
               <button
                 key={level.id}
                 onClick={() => setSelectedLevelId(level.id)}
-                className={`border px-2 md:px-6 py-2 rounded-3xl font-bold text-sm font-main transition 
+                className={`border px-1 md:px-8 py-2 rounded-3xl font-bold text-sm font-main transition 
                   ${
                     selectedLevelId === level.id
                       ? "bg-[#DCEAFB] text-[#007AFF] border-[#007AFF]"
                       : "border-[#DCEAFB] text-[#007AFF] hover:bg-[#DCEAFB]"
                   }
-                  w-[calc(50%-0.5rem)] sm:w-[calc(33.333%-0.5rem)] md:w-auto
+                  w-[calc(50%-0.5rem)] sm:w-[calc(33.333%-0.5rem)] lg:w-auto
                 `}
               >
                 {level.label}
               </button>
             ))}
           </div>
+          <div className="CardWrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6 md:mt-10 gap-3 md:gap-6">
+              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
 
+                    </div>
+                    <div className="TextWrapper p-3">
+                          <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
+                          <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                            <p className="text-white text-sm font-medium">Junior Engineer</p>
+                          </div>
+                          <div className="mt-2 PriceWrapper flex justify-between items-center">
+                            <p className="text-[#007AFF] font-medium text-2xl">Rp 99.000<span className="text-sm  font-main text-[#353748]"> / Perbulan</span></p>
+                            <button>
+                              <img src="/assets/arrow.svg" alt="" />
+                            </button>
+                          </div>
+                          
+                    </div>
+              </div>
+              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+
+                    </div>
+                    <div className="TextWrapper p-3">
+                          <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
+                          <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                            <p className="text-white text-sm font-medium">Junior Engineer</p>
+                          </div>
+                          <div className="mt-2 PriceWrapper flex justify-between items-center">
+                            <p className="text-[#007AFF] font-medium text-2xl">Rp 99.000<span className="text-sm  font-main text-[#353748]"> / Perbulan</span></p>
+                            <button>
+                              <img src="/assets/arrow.svg" alt="" />
+                            </button>
+                          </div>
+                          
+                    </div>
+              </div>
+              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+
+                    </div>
+                    <div className="TextWrapper p-3">
+                          <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
+                          <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                            <p className="text-white text-sm font-medium">Junior Engineer</p>
+                          </div>
+                          <div className="mt-2 PriceWrapper flex justify-between items-center">
+                            <p className="text-[#007AFF] font-medium text-2xl">Rp 99.000<span className="text-sm  font-main text-[#353748]"> / Perbulan</span></p>
+                            <button>
+                              <img src="/assets/arrow.svg" alt="" />
+                            </button>
+                          </div>
+                          
+                    </div>
+              </div>
+              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+
+                    </div>
+                    <div className="TextWrapper p-3">
+                          <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
+                          <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                            <p className="text-white text-sm font-medium">Junior Engineer</p>
+                          </div>
+                          <div className="mt-2 PriceWrapper flex justify-between items-center">
+                            <p className="text-[#007AFF] font-medium text-2xl">Rp 99.000<span className="text-sm  font-main text-[#353748]"> / Perbulan</span></p>
+                            <button>
+                              <img src="/assets/arrow.svg" alt="" />
+                            </button>
+                          </div>
+                          
+                    </div>
+              </div>
+              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+
+                    </div>
+                    <div className="TextWrapper p-3">
+                          <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
+                          <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                            <p className="text-white text-sm font-medium">Junior Engineer</p>
+                          </div>
+                          <div className="mt-2 PriceWrapper flex justify-between items-center">
+                            <p className="text-[#007AFF] font-medium text-2xl">Rp 99.000<span className="text-sm  font-main text-[#353748]"> / Perbulan</span></p>
+                            <button>
+                              <img src="/assets/arrow.svg" alt="" />
+                            </button>
+                          </div>
+                          
+                    </div>
+              </div>
+              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+
+                    </div>
+                    <div className="TextWrapper p-3">
+                          <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
+                          <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                            <p className="text-white text-sm font-medium">Junior Engineer</p>
+                          </div>
+                          <div className="mt-2 PriceWrapper flex justify-between items-center">
+                            <p className="text-[#007AFF] font-medium text-2xl">Rp 99.000<span className="text-sm  font-main text-[#353748]"> / Perbulan</span></p>
+                            <button>
+                              <img src="/assets/arrow.svg" alt="" />
+                            </button>
+                          </div>
+                          
+                    </div>
+              </div>
+          </div>
         </div>
       </div>
       </div>
