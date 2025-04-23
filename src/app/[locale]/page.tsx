@@ -47,7 +47,8 @@ export default function HomePage() {
         </div>
 
         {/* Konten teks */}
-        <div className="relative z-10 pt-34 md:pt-[200px] flex justify-center  flex-col">
+        
+        <div className="relative z-10 pt-34 md:mt-[50px] lg:mt[80px] flex justify-center flex-col">
           <p className="text-white text-8xl md:text-[200px] font-secondary font-light text-center leading-[100px] md:leading-[188px]">
             {t("HeroSection")}
           </p>
@@ -61,16 +62,16 @@ export default function HomePage() {
       <div className="runningText mt-12 md:mt-[90px]">
         <MarqueeSection />
       </div>
-      <div className="ContentWrapper bg-[#F5F6FB] w-full rounded-t-3xl md:rounded-t-4xl  mt-4 md:mt-[56px] p-2 md:p-8">
-        <div className="WhyUs mx-4 md:mx-12  flex flex-col md:flex-row pt-2 md:pt-18 md:justify-center md:items-center gap-[48px]">
+      <div className="ContentWrapper bg-[#F5F6FB] w-full rounded-t-3xl md:rounded-t-4xl  mt-4 md:mt-[56px] p-2 md:p-8 flex flex-col items-center">
+        <div className="WhyUs mx-4 md:mx-12 flex flex-col md:flex-row pt-2 md:pt-18 md:justify-center md:items-center gap-[48px]">
           <div className="ImageWrapper md:w-1/2">
             <img
-              src="/assets/why-us-section.png"
+              src="/assets/whyus-new.png"
               alt="why us"
               className="object-cover w-full"
             />
           </div>
-          <div className="TextWrapper md:w-1/2 flex flex-col">
+          <div className=" TextWrapper md:w-1/2 flex flex-col">
           <h1 className="font-bold text-2xl md:text-4xl text-[var(--font-color)] font-main">
               {t("WhyChooseUs.Title")}
               <br className="hidden md:inline" />
@@ -95,9 +96,9 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div className="CourseWrapper mx-4 flex flex-col md:flex-row pt-6 md:pt-[125px] mt-4 md:mt-[56px] justify-center items-center">
-        <div className="textWrapper flex flex-col items-center justify-center">
-          <div className="flex justify-center items-center">
+        <div className="CourseWrapper mx-auto flex flex-col md:flex-row pt-6 md:pt-[125px] mt-4 md:mt-[56px] justify-center items-center">
+        <div className="flex flex-col items-center justify-center mx-auto">
+          <div className="textWrapper flex flex-col justify-center items-center px-4">
             <h1 className="font-bold text-2xl md:text-4xl text-[var(--font-color)] font-main">
               {t("Course.Title")}
               <span className="inline-flex items-center gap-2 md:gap-3 ml-2">
@@ -111,7 +112,6 @@ export default function HomePage() {
                 />
               </span>
             </h1>
-          </div>
           <p className="font-medium text-md md:text-xl text-[var(--font-color)] font-main md:text-center pt-4 md:pt-4 max-w-4xl mx-auto whitespace-pre-line">
             {t("Course.Description")}
           </p>
@@ -133,15 +133,16 @@ export default function HomePage() {
               </button>
             ))}
           </div>
+          </div>
           <div className="CardWrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6 md:mt-10 gap-3 md:gap-6">
-              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
-                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+              <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl">
 
                     </div>
-                    <div className="TextWrapper p-3">
+                    <div className="TextWrapper pt-4 md:p-3">
                           <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
                           <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
-                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl my-2">
                             <p className="text-white text-sm font-medium">Junior Engineer</p>
                           </div>
                           <div className="mt-2 PriceWrapper flex justify-between items-center">
@@ -153,14 +154,14 @@ export default function HomePage() {
                           
                     </div>
               </div>
-              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
-                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+              <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl">
 
                     </div>
-                    <div className="TextWrapper p-3">
+                    <div className="TextWrapper pt-4 md:p-3">
                           <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
                           <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
-                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl my-2">
                             <p className="text-white text-sm font-medium">Junior Engineer</p>
                           </div>
                           <div className="mt-2 PriceWrapper flex justify-between items-center">
@@ -172,14 +173,14 @@ export default function HomePage() {
                           
                     </div>
               </div>
-              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
-                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+              <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl">
 
                     </div>
-                    <div className="TextWrapper p-3">
+                    <div className="TextWrapper pt-4 md:p-3">
                           <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
                           <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
-                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl my-2">
                             <p className="text-white text-sm font-medium">Junior Engineer</p>
                           </div>
                           <div className="mt-2 PriceWrapper flex justify-between items-center">
@@ -191,14 +192,14 @@ export default function HomePage() {
                           
                     </div>
               </div>
-              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
-                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+              <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl">
 
                     </div>
-                    <div className="TextWrapper p-3">
+                    <div className="TextWrapper pt-4 md:p-3">
                           <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
                           <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
-                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl my-2">
                             <p className="text-white text-sm font-medium">Junior Engineer</p>
                           </div>
                           <div className="mt-2 PriceWrapper flex justify-between items-center">
@@ -210,33 +211,14 @@ export default function HomePage() {
                           
                     </div>
               </div>
-              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
-                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
+              <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl">
 
                     </div>
-                    <div className="TextWrapper p-3">
+                    <div className="TextWrapper pt-4 md:p-3">
                           <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
                           <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
-                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
-                            <p className="text-white text-sm font-medium">Junior Engineer</p>
-                          </div>
-                          <div className="mt-2 PriceWrapper flex justify-between items-center">
-                            <p className="text-[#007AFF] font-medium text-2xl">Rp 99.000<span className="text-sm  font-main text-[#353748]"> / Perbulan</span></p>
-                            <button>
-                              <img src="/assets/arrow.svg" alt="" />
-                            </button>
-                          </div>
-                          
-                    </div>
-              </div>
-              <div className="bg-white w-[300px] h-[400px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
-                    <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-2xl">
-
-                    </div>
-                    <div className="TextWrapper p-3">
-                          <h1 className="font-bold font-main text-xl">Stracth Block Coding</h1>
-                          <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">Belajar Cara Membuat Game, Melatih Anak Logic Programming</p>
-                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl">
+                          <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl my-2">
                             <p className="text-white text-sm font-medium">Junior Engineer</p>
                           </div>
                           <div className="mt-2 PriceWrapper flex justify-between items-center">
@@ -252,6 +234,7 @@ export default function HomePage() {
         </div>
       </div>
       </div>
+      
     </div>
   );
 }
