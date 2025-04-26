@@ -27,5 +27,20 @@
     "Class" : "Kelas",
     "Contact": "Kontak",
     "CTA": "Coba Gratis"
+  },
+  "Footer": {
+    "MenuSection": {
+      "Menu" : "Menu",
+      "Course" : "Kelas",
+      "About" : "Tentang Kami"
+    },
+    "PolicySection": {
+      "PrivacyPolicy" : "Kebijakan Privasi",
+      "TermsOfService" : "Syarat & Ketentuan"
+    },
+    "ContactSection": {
+      "Contact" : "Hubungi Kami",
+      "ContactUsButton" : "Hubungi Kami 24/7"
+    }
   }
 }

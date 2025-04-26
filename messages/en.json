@@ -27,5 +27,20 @@
     "Class" : "Class",
     "Contact": "Contact",
     "CTA": "Free Trial"
+  },
+  "Footer": {
+    "MenuSection": {
+    "Menu": "Menu",
+    "Course": "Classes",
+    "About": "About Us"
+    },
+    "PolicySection": {
+    "PrivacyPolicy": "Privacy Policy",
+    "TermsOfService": "Terms & Conditions"
+    },
+    "ContactSection": {
+    "Contact": "Contact Us",
+    "ContactUsButton": "24/7 Support"
+    }
   }
 }

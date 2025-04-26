@@ -1,159 +1,126 @@
-import React from 'react'
+'use client';
+
+import React from "react";
+import { useTranslations } from "use-intl";
 
 export default function Footer() {
-  return (
-    <footer className="bg-cp-black w-full relative overflow-hidden mt-20">
-  <div className="container max-w-[1130px] mx-auto flex flex-wrap gap-y-4 items-center justify-between pt-[100px] pb-[220px] relative z-10">
-    <div className="flex flex-col gap-10">
-      <div className="flex items-center gap-3">
-        <div className="flex shrink-0 h-[43px] overflow-hidden">
-          <img
-            src="/assets/logo/logo.svg"
-            className="object-contain w-full h-full"
-            alt="logo"
-          />
-        </div>
-        <div className="flex flex-col">
-          <p
-            id="CompanyName"
-            className="font-extrabold text-xl leading-[30px] text-white"
-          >
-            DGAMEDEV Academy
-          </p>
-          <p id="CompanyTagline" className="text-sm text-white">
-            Build 
-          </p>
-        </div>
-      </div>
-      <div className="flex items-center gap-4">
-        <a href="">
-          <div className="w-6 h-6 flex shrink-0 overflow-hidden">
-            <img
-              src="/assets/icons/youtube.svg"
-              className="w-full h-full object-contain"
-              alt="youtube"
-            />
-          </div>
-        </a>
-        <a href="">
-          <div className="w-6 h-6 flex shrink-0 overflow-hidden">
-            <img
-              src="/assets/icons/whatsapp.svg"
-              className="w-full h-full object-contain"
-              alt="whatsapp"
-            />
-          </div>
-        </a>
-        <a href="">
-          <div className="w-6 h-6 flex shrink-0 overflow-hidden">
-            <img
-              src="/assets/icons/facebook.svg"
-              className="w-full h-full object-contain"
-              alt="facebook"
-            />
-          </div>
-        </a>
-        <a href="">
-          <div className="w-6 h-6 flex shrink-0 overflow-hidden">
-            <img
-              src="/assets/icons/instagram.svg"
-              className="w-full h-full object-contain"
-              alt="instagram"
-            />
-          </div>
-        </a>
-      </div>
-    </div>
-    <div className="flex flex-wrap gap-[50px]">
-      <div className="flex flex-col w-[200px] gap-3">
-        <p className="font-bold text-lg text-white">Products</p>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          General Contract
-        </a>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Building Assessment
-        </a>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          3D Paper Builder
-        </a>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Legal Constructions
-        </a>
-      </div>
-      <div className="flex flex-col w-[200px] gap-3">
-        <p className="font-bold text-lg text-white">About</p>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          We’re Hiring
-        </a>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Our Big Purposes
-        </a>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Investor Relations
-        </a>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Media Press
-        </a>
-      </div>
-      <div className="flex flex-col w-[200px] gap-3">
-        <p className="font-bold text-lg text-white">Useful Links</p>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Privacy &amp; Policy
-        </a>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Terms &amp; Conditions
-        </a>
-        <a
-          href="contact.html"
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Contact Us
-        </a>
-        <a
-          href=""
-          className="text-white hover:text-white transition-all duration-300"
-        >
-          Download Template
-        </a>
-      </div>
-    </div>
-  </div>
-  <div className="absolute -bottom-[135px] w-full">
-    <p className="font-extrabold text-[140px] leading-[375px] text-center text-white opacity-5">
-      DGAMEDEV ACADEMY
-    </p>
-  </div>
-</footer>
 
-  )
+  const t = useTranslations("Footer");
+
+  return (
+    <footer className="relative overflow-hidden max-w-screen mx-auto p-5">
+      <div className="container max-w-[1130px] mx-auto flex flex-col sm:flex-row flex-wrap gap-y-8 items-start justify-between pt-10 md:pt-[60px] pb-24 md:pb-[220px] relative z-10">
+        {/* Logo dan Social Media Section - Kiri */}
+        <div className="flex flex-col gap-6 md:gap-10">
+          <div className="flex items-center gap-3">
+            <div className="flex shrink-0 h-[38px] md:h-[43px] overflow-hidden">
+              <img
+                src="/assets/Logo.png"
+                className="object-contain w-full h-full"
+                alt="logo"
+              />
+            </div>
+            <div className="flex flex-col">
+              <p
+                id="CompanyName"
+                className="font-extrabold text-lg md:text-xl leading-tight md:leading-[30px] text-white"
+              >
+                DGAMEDEV ACADEMY
+              </p>
+              <p id="CompanyTagline" className="text-xs md:text-sm text-white">
+                Build
+              </p>
+            </div>
+          </div>
+          <div className="flex items-center gap-4">
+            <a href="" className="hover:opacity-80 transition-opacity">
+              <div className="w-5 h-5 md:w-6 md:h-6 flex shrink-0 overflow-hidden">
+                <img
+                  src="/assets/icons/youtube.svg"
+                  className="w-full h-full object-contain"
+                  alt="youtube"
+                />
+              </div>
+            </a>
+            <a href="" className="hover:opacity-80 transition-opacity">
+              <div className="w-5 h-5 md:w-6 md:h-6 flex shrink-0 overflow-hidden">
+                <img
+                  src="/assets/icons/whatsapp.svg"
+                  className="w-full h-full object-contain"
+                  alt="whatsapp"
+                />
+              </div>
+            </a>
+            <a href="" className="hover:opacity-80 transition-opacity">
+              <div className="w-5 h-5 md:w-6 md:h-6 flex shrink-0 overflow-hidden">
+                <img
+                  src="/assets/icons/instagram.svg"
+                  className="w-full h-full object-contain"
+                  alt="instagram"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+
+        {/* Navigation Section - Tengah dan Kanan */}
+        <div className="flex flex-row flex-wrap justify-between sm:justify-end gap-6 sm:gap-5 md:gap-[50px] w-full sm:w-auto mt-6 sm:mt-0">
+          {/* Product Links */}
+          <div className="flex flex-col w-[45%] sm:w-[150px] md:w-[200px] gap-2 md:gap-3">
+            <p className="font-bold text-base md:text-lg text-white">{t("MenuSection.Menu")}</p>
+            <a
+              href=""
+              className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"
+            >
+              {t("MenuSection.Course")}
+            </a>
+            <a
+              href=""
+              className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"
+            >
+              {t("MenuSection.About")}
+            </a>
+          </div>
+          
+          {/* About Links */}
+          <div className="flex flex-col w-[45%] sm:w-[150px] md:w-[200px] gap-2 md:gap-3">
+            <p className="font-bold text-base md:text-lg text-white">About</p>
+            <a
+              href=""
+              className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"
+            >
+              {t("PolicySection.PrivacyPolicy")}
+            </a>
+            <a
+              href=""
+              className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"
+            >
+              {t("PolicySection.TermsOfService")}
+            </a>
+          </div>
+          
+          {/* Contact Section - Tetap di kanan */}
+          <div className="flex flex-col w-full sm:w-[150px] md:w-[200px] gap-2 md:gap-3">
+            <p className="hidden md:block font-bold text-base md:text-lg text-white">{t("ContactSection.Contact")}</p>
+            <a
+              href=""
+              className="bg-amber-600 p-2 font-medium hover:cursor-pointer hover:bg-amber-700 rounded-full flex justify-center text-white hover:text-white text-sm md:text-base transition-all duration-300"
+            >
+              {t("ContactSection.ContactUsButton")}
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="absolute -bottom-[135px] w-full hidden md:block">
+        <p className="font-extrabold text-5xl md:text-[120px] leading-[375px] text-center text-white opacity-5">
+          DGAMEDEV ACADEMY
+        </p>
+      </div>
+      <div className="absolute -bottom-[50px] w-full md:hidden">
+        <p className="font-extrabold text-3xl leading-[150px] text-center text-white opacity-5">
+          DGAMEDEV ACADEMY
+        </p>
+      </div>
+    </footer>
+  );
 }

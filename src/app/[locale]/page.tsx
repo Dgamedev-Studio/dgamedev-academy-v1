@@ -134,7 +134,7 @@ export default function HomePage() {
             ))}
           </div>
           </div>
-          <div className="CardWrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6 md:mt-10 gap-3 md:gap-6">
+          <div className="CardWrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-6 md:my-10 gap-3 md:gap-6">
               <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
                     <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl">
 
