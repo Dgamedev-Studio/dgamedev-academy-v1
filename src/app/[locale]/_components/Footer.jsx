@@ -27,8 +27,8 @@ export default function Footer() {
               >
                 DGAMEDEV ACADEMY
               </p>
-              <p id="CompanyTagline" className="text-xs md:text-sm text-white">
-                Build
+              <p id="CompanyTagline" className="text-xs md:text-sm text-white max-w-[300px]">
+                {t("TagLine.TagLine")}
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Footer() {
           
           {/* About Links */}
           <div className="flex flex-col w-[45%] sm:w-[150px] md:w-[200px] gap-2 md:gap-3">
-            <p className="font-bold text-base md:text-lg text-white">About</p>
+            <p className="font-bold text-base md:text-lg text-white">{t("PolicySection.Policy")}</p>
             <a
               href=""
               className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"

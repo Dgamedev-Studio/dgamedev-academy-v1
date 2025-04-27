@@ -35,12 +35,16 @@
       "About" : "Tentang Kami"
     },
     "PolicySection": {
+      "Policy": "Policy",
       "PrivacyPolicy" : "Kebijakan Privasi",
       "TermsOfService" : "Syarat & Ketentuan"
     },
     "ContactSection": {
       "Contact" : "Hubungi Kami",
       "ContactUsButton" : "Hubungi Kami 24/7"
+    },
+    "TagLine": {
+      "TagLine": "Kami berkomitmen untuk membekali setiap peserta dengan keterampilan praktis, kreativitas, dan kepercayaan diri yang dibutuhkan untuk sukses di era digital."
     }
   }
 }
