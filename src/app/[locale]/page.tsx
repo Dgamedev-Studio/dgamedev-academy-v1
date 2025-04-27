@@ -63,16 +63,16 @@ export default function HomePage() {
         <MarqueeSection />
       </div>
       <div className="ContentWrapper bg-[#F5F6FB] w-full rounded-t-3xl md:rounded-t-4xl  mt-4 md:mt-[56px] p-2 md:p-8 flex flex-col items-center">
-        <div className="WhyUs mx-4 md:mx-12 flex flex-col md:flex-row pt-2 md:pt-18 md:justify-center md:items-center gap-[48px]">
-          <div className="ImageWrapper md:w-1/2">
+        <div className="WhyUs mx-4 md:mx-12 flex flex-col lg:flex-row pt-2 md:pt-18 md:justify-center md:items-center gap-[48px]">
+          <div className="ImageWrapper lg:w-1/2">
             <img
               src="/assets/whyus-new.png"
               alt="why us"
               className="object-cover w-full"
             />
           </div>
-          <div className=" TextWrapper md:w-1/2 flex flex-col">
-          <h1 className="font-bold text-2xl md:text-4xl text-[var(--font-color)] font-main">
+          <div className=" TextWrapper lg:w-1/2 flex flex-col ">
+          <h1 className="font-bold text-2xl md:text-4xl text-[var(--font-color)] font-main ">
               {t("WhyChooseUs.Title")}
               <br className="hidden md:inline" />
               Academy?

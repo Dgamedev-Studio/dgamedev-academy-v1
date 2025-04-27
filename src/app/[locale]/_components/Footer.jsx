@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <footer className="relative overflow-hidden max-w-screen mx-auto p-5">
-      <div className="container max-w-[1130px] mx-auto flex flex-col sm:flex-row flex-wrap gap-y-8 items-start justify-between pt-10 md:pt-[60px] pb-24 md:pb-[220px] relative z-10">
+      <div className="container max-w-[1130px] mx-auto flex flex-col sm:flex-row flex-wrap gap-y-8 items-start justify-between pt-10 md:pt-[60px] pb-24 md:pb-[220px] relative z-10 md:p-6">
         {/* Logo dan Social Media Section - Kiri */}
         <div className="flex flex-col gap-6 md:gap-10">
           <div className="flex items-center gap-3">
@@ -111,13 +111,17 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="absolute -bottom-[135px] w-full hidden md:block">
-        <p className="font-extrabold text-5xl md:text-[120px] leading-[375px] text-center text-white opacity-5">
+      
+      {/* Watermark besar untuk desktop */}
+      <div className="absolute -bottom-[135px] w-full max-w-auto hidden md:block">
+        <p className="font-extrabold md:text-[60px] lg:text-[100px] leading-[375px] text-center text-white opacity-5">
           DGAMEDEV ACADEMY
         </p>
       </div>
-      <div className="absolute -bottom-[50px] w-full md:hidden">
-        <p className="font-extrabold text-3xl leading-[150px] text-center text-white opacity-5">
+      
+      {/* Watermark untuk mobile - diubah untuk perfect centering */}
+      <div className="absolute left-0 right-0 -bottom-[50px] w-full md:hidden">
+        <p className="font-extrabold text-2xl leading-[150px] text-center text-white opacity-5 mx-auto">
           DGAMEDEV ACADEMY
         </p>
       </div>
