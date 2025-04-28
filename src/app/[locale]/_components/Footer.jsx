@@ -8,8 +8,8 @@ export default function Footer() {
   const t = useTranslations("Footer");
 
   return (
-    <footer className="relative overflow-hidden max-w-screen mx-auto p-5">
-      <div className="container max-w-[1130px] mx-auto flex flex-col sm:flex-row flex-wrap gap-y-8 items-start justify-between pt-10 md:pt-[60px] pb-24 md:pb-[220px] relative z-10 md:p-6">
+    <footer className="relative overflow-hidden max-w-screen mx-auto ">
+      <div className="container max-w-[1130px] mx-auto flex flex-col sm:flex-row flex-wrap gap-y-8 items-start justify-between pt-10 md:pt-[60px] pb-24 md:pb-[220px] relative z-10 p-6  ">
         {/* Logo dan Social Media Section - Kiri */}
         <div className="flex flex-col gap-6 md:gap-10">
           <div className="flex items-center gap-3">
