@@ -20,6 +20,25 @@
           "Middle": "Middle Engineer",
           "Senior": "Senior Engineer"
         }
+    },
+    "FAQ" : {
+      "Title": "Frequently Asked Questions",
+      "ButtonContact": "Contact Us",
+      "Question1": {
+        "Q": "What is the duration of the classes?",
+        "A": "The duration of each class varies depending on the course. Most classes last between 4 to 12 weeks."
+      },
+      "Question2": {
+        "Q": "What if I miss a class?",
+        "A": "No worries! All classes are recorded, and you can catch up at your convenience."
+      },
+      "Question3": {
+        "Q": "Do I need prior experience to join?",
+        "A": "No prior experience is required for most of our classes. We have options for beginners and advanced learners."
+      }
+    },
+    "Subscribe" : {
+      "Title" : "Subcribe untuk Mendaptkan Informasi \nPromo Kelas Kami"
     }
   },
   "Navigation" : {

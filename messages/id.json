@@ -20,6 +20,25 @@
         "Middle": "Middle Engineer",
         "Senior": "Senior Engineer"
       }
+    },
+    "FAQ" : {
+      "Title": "Pertanyaan yang Sering Diajukan",
+      "ButtonContact": "Hubungi Kami",
+      "Question1": {
+        "Q": "Berapa lama durasi kelas?",
+        "A": "Durasi setiap kelas bervariasi tergantung pada kursus. Sebagian besar kelas berlangsung antara 4 hingga 12 minggu."
+      },
+      "Question2": {
+        "Q": "Bagaimana jika saya melewatkan kelas?",
+        "A": "Tidak masalah! Semua kelas direkam, dan kamu bisa mengejar ketertinggalan kapan saja."
+      },
+      "Question3": {
+        "Q": "Apakah saya perlu pengalaman sebelumnya untuk bergabung?",
+        "A": "Tidak ada pengalaman sebelumnya yang diperlukan untuk sebagian besar kelas kami. Kami memiliki opsi untuk pemula dan pelajar tingkat lanjut."
+      }
+    },
+    "Subscribe" : {
+      "Title" : "Subcribe untuk Mendaptkan Informasi <br/> Promo  Kelas  Kami"
     }
   },
   "Navigation" : {
