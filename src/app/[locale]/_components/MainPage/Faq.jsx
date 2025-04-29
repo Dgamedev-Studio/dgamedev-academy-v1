@@ -66,27 +66,32 @@ export default function FAQPage() {
       id: "accordion-faq-3",
       title: t('Question3.Q'),
       content: t('Question3.A')
+    },
+    {
+      id: "accordion-faq-4",
+      title: t('Question4.Q'),
+      content: t('Question4.A')
     }
   ];
 
   return (
-    <div id="FAQ" className="w-full py-20 px-[10px] mt-20 -mb-20">
+    <div id="FAQ" className="w-full py-10 px-[10px] my-24">
       <div className="container max-w-[1000px] mx-auto">
         <div className="flex flex-col lg:flex-row gap-[50px] sm:gap-[70px] items-center">
           <div className="flex flex-col gap-[30px]">
             <div className="flex flex-col gap-[10px]">
-              <h2 className="font-bold text-4xl leading-[45px]">
+              <h2 className="font-bold text-4xl leading-[45px] font-main">
                 {t('Title')}
               </h2>
             </div>
             <a
               href="contact.html"
-              className="px-5 py-3 bg-amber-600 rounded-xl text-white w-fit font-bold"
+              className="px-5 py-3 bg-amber-600 rounded-xl text-white w-fit font-bold font-main"
             >
               {t('ButtonContact')}
             </a>
           </div>
-          <div className="flex flex-col gap-[30px] sm:w-[603px] shrink-0">
+          <div className="flex flex-col gap-[30px] sm:w-[603px] shrink-0 font-main">
             {faqItems.map((item) => (
               <AccordionItem 
                 key={item.id}

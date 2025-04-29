@@ -25,16 +25,20 @@
       "Title": "Pertanyaan yang Sering Diajukan",
       "ButtonContact": "Hubungi Kami",
       "Question1": {
-        "Q": "Berapa lama durasi kelas?",
+        "Q": "Berapa Lama Durasi Kelas?",
         "A": "Durasi setiap kelas bervariasi tergantung pada kursus. Sebagian besar kelas berlangsung antara 4 hingga 12 minggu."
       },
       "Question2": {
-        "Q": "Bagaimana jika saya melewatkan kelas?",
-        "A": "Tidak masalah! Semua kelas direkam, dan kamu bisa mengejar ketertinggalan kapan saja."
+        "Q": "Berapa Rasio Kelasnya?",
+        "A": "Rasio kelas kami adalah 1:5, yang berarti satu mentor untuk lima siswa. Ini memastikan perhatian dan dukungan maksimal untuk setiap siswa."
       },
       "Question3": {
-        "Q": "Apakah saya perlu pengalaman sebelumnya untuk bergabung?",
-        "A": "Tidak ada pengalaman sebelumnya yang diperlukan untuk sebagian besar kelas kami. Kami memiliki opsi untuk pemula dan pelajar tingkat lanjut."
+        "Q": "Bagaimana Jika Saya Melewatkan Kelas?",
+        "A": "Tidak masalah! Kamu bisa meresechdule kelas yang terlewat. Dengan syrat menghubungi kami terlebih dahulu."
+      },
+      "Question4": {
+        "Q": "Bagaimana Kelasnya Dilakukan?",
+        "A": "Kelas kami dilakukan secara online melalui aplikasi Zoom, Sehingga kamu bisa belajar dari mana saja."
       }
     },
     "Subscribe" : {

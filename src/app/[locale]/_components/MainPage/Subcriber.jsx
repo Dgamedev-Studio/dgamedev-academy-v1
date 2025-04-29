@@ -21,7 +21,7 @@ export default function SubscribeWrapper() {
 
   return (
     <div className="w-full flex flex-col items-center justify-center mt-8 md:mt-24 mx-auto">
-      <div className="relative overflow-hidden bg-gradient-to-br from-blue-600 to-blue-800 w-full md:max-w-7xl rounded-3xl shadow-2xl transform transition-all duration-500 hover:shadow-blue-300/30 hover:shadow-xl mx-4 md:mx-12">
+      <div className="relative overflow-hidden bg-gradient-to-br from-blue-600 to-blue-800 w-full md:max-w-7xl rounded-3xl shadow-2xl transform transition-all duration-500 hover:shadow-blue-300/30 hover:shadow-xl ">
         
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-10">
@@ -33,7 +33,7 @@ export default function SubscribeWrapper() {
         <div className="relative z-10 p-8 md:px-12 flex flex-col items-center">
           {/* Title with gradient text */}
           <h1 className="font-bold text-2xl md:text-4xl lg:text-5xl text-white font-sans text-center mb-6">
-            {t('Title')} <span className="bg-clip-text text-transparent bg-amber-300">{t('TitleHighlight')}</span>
+            {t('Title')} <span className="bg-clip-text text-transparent bg-amber-500">{t('TitleHighlight')}</span>
           </h1>
           
           {/* Subtitle */}

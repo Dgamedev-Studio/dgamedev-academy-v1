@@ -25,17 +25,21 @@
       "Title": "Frequently Asked Questions",
       "ButtonContact": "Contact Us",
       "Question1": {
-        "Q": "What is the duration of the classes?",
-        "A": "The duration of each class varies depending on the course. Most classes last between 4 to 12 weeks."
-      },
-      "Question2": {
-        "Q": "What if I miss a class?",
-        "A": "No worries! All classes are recorded, and you can catch up at your convenience."
-      },
-      "Question3": {
-        "Q": "Do I need prior experience to join?",
-        "A": "No prior experience is required for most of our classes. We have options for beginners and advanced learners."
-      }
+          "Q": "What is the duration of the classes?",
+          "A": "The duration of each class varies depending on the course. Most classes last between 4 to 12 weeks."
+        },
+        "Question2": {
+          "Q": "What is the class ratio?",
+          "A": "Our class ratio is 1:5, meaning one mentor for every five students. This ensures personalized attention and maximum support."
+        },
+        "Question3": {
+          "Q": "What if I miss a class?",
+          "A": "No worries! You can reschedule the class you missed, as long as you contact us in advance."
+        },
+        "Question4": {
+          "Q": "How are the classes conducted?",
+          "A": "Our classes are conducted online via Zoom, so you can learn from anywhere."
+        }
     },
     "Subscribe" : {
       "Title" : "Stay Updated on ",
