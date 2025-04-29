@@ -5,6 +5,7 @@ import Image from "next/image";
 import MarqueeSection from "./_components/ui/marquee";
 import FAQPage from "./_components/MainPage/Faq";
 import { useState } from "react";
+import SubscribeWrapper from "./_components/MainPage/Subcriber";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
@@ -282,35 +283,94 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="SubscribeWrapper flex flex-col items-center justify-center mt-4 md:mt-[90px]">
-          <div className="bg-amber-600 w-ful  md:w-[1300px] h-full p-4 rounded-4xl flex flex-col items-center justify-center">
-            <h1 className="font-bold text-2xl md:text-4xl text-white font-main text-center"
-                dangerouslySetInnerHTML={{ __html: t("Subscribe.Title") }} 
-            />
-            <div className="flex flex-col w-full max-w-md gap-4 mt-6">
-              <div className="flex gap-4">
-              <input 
-                type="text"
-                placeholder="Nama Panggilan"
-                className="w-1/2 px-4 py-2 rounded-full font-main text-gray-700  bg-white focus:outline-none focus:ring-2 focus:ring-gray-500"
-              />
-              <input 
-                type="email"
-                placeholder="Email"
-                className="w-1/2 px-4  rounded-full font-main text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
+              <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl"></div>
+                <div className="TextWrapper pt-4 md:p-3">
+                  <h1 className="font-bold font-main text-xl">
+                    Stracth Block Coding
+                  </h1>
+                  <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">
+                    Belajar Cara Membuat Game, Melatih Anak Logic Programming
+                  </p>
+                  <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl my-2">
+                    <p className="text-white text-sm font-medium">
+                      Junior Engineer
+                    </p>
+                  </div>
+                  <div className="mt-2 PriceWrapper flex justify-between items-center">
+                    <p className="text-[#007AFF] font-medium text-2xl">
+                      Rp 99.000
+                      <span className="text-sm  font-main text-[#353748]">
+                        {" "}
+                        / Perbulan
+                      </span>
+                    </p>
+                    <button>
+                      <img src="/assets/arrow.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl"></div>
+                <div className="TextWrapper pt-4 md:p-3">
+                  <h1 className="font-bold font-main text-xl">
+                    Stracth Block Coding
+                  </h1>
+                  <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">
+                    Belajar Cara Membuat Game, Melatih Anak Logic Programming
+                  </p>
+                  <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl my-2">
+                    <p className="text-white text-sm font-medium">
+                      Junior Engineer
+                    </p>
+                  </div>
+                  <div className="mt-2 PriceWrapper flex justify-between items-center">
+                    <p className="text-[#007AFF] font-medium text-2xl">
+                      Rp 99.000
+                      <span className="text-sm  font-main text-[#353748]">
+                        {" "}
+                        / Perbulan
+                      </span>
+                    </p>
+                    <button>
+                      <img src="/assets/arrow.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white p-4 md:p-0 w-[350px] h-[450px] md:w-[300px] md:h-[380px] rounded-2xl drop-shadow-2xl flex flex-col">
+                <div className="ImageWrapper w-full h-[200px] md:h-[180px] bg-red-900 rounded-t-xl md:rounded-t-2xl"></div>
+                <div className="TextWrapper pt-4 md:p-3">
+                  <h1 className="font-bold font-main text-xl">
+                    Stracth Block Coding
+                  </h1>
+                  <p className="font-regular font-main text-sm pt-2 pb-2 pr-2">
+                    Belajar Cara Membuat Game, Melatih Anak Logic Programming
+                  </p>
+                  <div className="bg-[#007AFF] w-30 h-9 flex items-center justify-center rounded-lg md:rounded-xl my-2">
+                    <p className="text-white text-sm font-medium">
+                      Junior Engineer
+                    </p>
+                  </div>
+                  <div className="mt-2 PriceWrapper flex justify-between items-center">
+                    <p className="text-[#007AFF] font-medium text-2xl">
+                      Rp 99.000
+                      <span className="text-sm  font-main text-[#353748]">
+                        {" "}
+                        / Perbulan
+                      </span>
+                    </p>
+                    <button>
+                      <img src="/assets/arrow.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-              <button className="bg-[#007AFF] rounded-full py-2 px-6 hover:bg-blue-600 transition duration-300 cursor-pointer">
-                <p className="text-white font-medium text-base md:text-xl font-main">
-                  Subscribe
-                </p>
-              </button>
           </div>
         </div>
+                <SubscribeWrapper/>
         <div className="FAQGPAGE">
           <FAQPage />
         </div>

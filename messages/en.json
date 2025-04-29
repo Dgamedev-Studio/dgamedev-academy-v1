@@ -38,7 +38,9 @@
       }
     },
     "Subscribe" : {
-      "Title" : "Subcribe untuk Mendaptkan Informasi \nPromo Kelas Kami"
+      "Title" : "Stay Updated on ",
+      "TitleHighlight": "Promotions",
+      "Subtitle": "Subscribe to Get Our Latest Class Updates and Other Exciting Promos!"
     }
   },
   "Navigation" : {

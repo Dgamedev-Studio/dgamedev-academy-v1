@@ -38,7 +38,9 @@
       }
     },
     "Subscribe" : {
-      "Title" : "Subcribe untuk Mendaptkan Informasi <br/> Promo  Kelas  Kami"
+      "Title" : "Dapatkan Informasi",
+      "TitleHighlight": "Promo",
+      "Subtitle": "    Subscribe untuk Dapetin Informasi Kelas Terbaru Kami dan Promo Menarik Lainnya!"
     }
   },
   "Navigation" : {
