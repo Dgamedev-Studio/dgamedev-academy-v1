@@ -16,3 +16,8 @@ body {
   font-family: var(--font-main);
   /* font-family: var(--font-anton); */
 }
+
+::selection {
+  background: orange;
+  color: white; /* Opsional, bisa disesuaikan */
+}
