@@ -2,9 +2,13 @@
 
 import React from "react";
 import { useTranslations } from "use-intl";
+import Link from 'next/link';
+import { useLocale } from 'next-intl';
+
 
 export default function Footer() {
 
+  const locale = useLocale();
   const t = useTranslations("Footer");
 
   return (
@@ -13,7 +17,7 @@ export default function Footer() {
         {/* Logo dan Social Media Section - Kiri */}
         <div className="flex flex-col gap-6 md:gap-10">
           <div className="flex items-center gap-3">
-            <div className="flex shrink-0 h-[38px] md:h-[43px] overflow-hidden">
+            <div className="flex shrink-0 h-[48px] md:h-[43px] overflow-hidden">
               <img
                 src="/assets/Logo.png"
                 className="object-contain w-full h-full"
@@ -27,13 +31,13 @@ export default function Footer() {
               >
                 DGAMEDEV ACADEMY
               </p>
-              <p id="CompanyTagline" className="text-xs md:text-sm text-white max-w-[300px]">
+              <p id="CompanyTagline" className="text-xs md:text-sm text-white max-w-[300px] mt-2">
                 {t("TagLine.TagLine")}
               </p>
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <a href="" className="hover:opacity-80 transition-opacity">
+            <Link href="" className="hover:opacity-80 transition-opacity">
               <div className="w-5 h-5 md:w-6 md:h-6 flex shrink-0 overflow-hidden">
                 <img
                   src="/assets/icons/youtube.svg"
@@ -41,8 +45,8 @@ export default function Footer() {
                   alt="youtube"
                 />
               </div>
-            </a>
-            <a href="" className="hover:opacity-80 transition-opacity">
+            </Link>
+            <Link href="" className="hover:opacity-80 transition-opacity">
               <div className="w-5 h-5 md:w-6 md:h-6 flex shrink-0 overflow-hidden">
                 <img
                   src="/assets/icons/whatsapp.svg"
@@ -50,8 +54,8 @@ export default function Footer() {
                   alt="whatsapp"
                 />
               </div>
-            </a>
-            <a href="" className="hover:opacity-80 transition-opacity">
+            </Link>
+            <Link href="" className="hover:opacity-80 transition-opacity">
               <div className="w-5 h-5 md:w-6 md:h-6 flex shrink-0 overflow-hidden">
                 <img
                   src="/assets/icons/instagram.svg"
@@ -59,7 +63,7 @@ export default function Footer() {
                   alt="instagram"
                 />
               </div>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -68,46 +72,46 @@ export default function Footer() {
           {/* Product Links */}
           <div className="flex flex-col w-[45%] sm:w-[150px] md:w-[200px] gap-2 md:gap-3">
             <p className="font-bold text-base md:text-lg text-white">{t("MenuSection.Menu")}</p>
-            <a
+            <Link
               href=""
               className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"
             >
               {t("MenuSection.Course")}
-            </a>
-            <a
+            </Link>
+            <Link
               href=""
               className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"
             >
               {t("MenuSection.About")}
-            </a>
+            </Link>
           </div>
           
           {/* About Links */}
           <div className="flex flex-col w-[45%] sm:w-[150px] md:w-[200px] gap-2 md:gap-3">
             <p className="font-bold text-base md:text-lg text-white">{t("PolicySection.Policy")}</p>
-            <a
-              href=""
+            <Link
+              href={`/${locale}/privacy`}
               className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"
             >
               {t("PolicySection.PrivacyPolicy")}
-            </a>
-            <a
-              href=""
+            </Link>
+            <Link
+                 href={`/${locale}/terms-and-conditions`}
               className="text-sm md:text-base text-white hover:text-white hover:underline transition-all duration-300"
             >
               {t("PolicySection.TermsOfService")}
-            </a>
+            </Link>
           </div>
           
           {/* Contact Section - Tetap di kanan */}
           <div className="flex flex-col w-full sm:w-[150px] md:w-[200px] gap-2 md:gap-3">
             <p className="hidden md:block font-bold text-base md:text-lg text-white">{t("ContactSection.Contact")}</p>
-            <a
+            <Link
               href=""
               className="bg-amber-600 p-2 font-medium hover:cursor-pointer hover:bg-amber-700 rounded-full flex justify-center text-white hover:text-white text-sm md:text-base transition-all duration-300"
             >
               {t("ContactSection.ContactUsButton")}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

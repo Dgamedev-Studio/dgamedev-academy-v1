@@ -51,6 +51,7 @@ export default function MarqueeSection() {
     &nbsp;&nbsp;&nbsp;Next JS&nbsp;&nbsp;&nbsp;
     <span className="inline-flex items-center">*</span>
     &nbsp;&nbsp;&nbsp;Tailwindcss
+    <span className="inline-flex items-center">*</span>
   </Marquee>
   )
 }

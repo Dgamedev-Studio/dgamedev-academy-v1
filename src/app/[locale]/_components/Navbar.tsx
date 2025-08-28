@@ -2,18 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useLocale } from "next-intl";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import LocaleSwitcher from "./LocaleSwitcher";
 import { useTranslations } from "next-intl";
 
 export default function Navbar() {
+
+  const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
   const t = useTranslations("Navigation");
 
   return (
-    <header className="fixed top-0 left-0 right-0 px-[20px] container max-w-screen mx-auto z-50 my-4">
+    <header className="fixed top-0 left-0 right-0 px-[10px] md:px-[20px] container max-w-screen mx-auto z-50 my-4">
        <nav className="flex items-center justify-between bg-white px-4 py-3  rounded-[20px]">
         {/* Left Section (Logo + Menu) */}
         <div className="flex items-center gap-8">
@@ -29,19 +32,19 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <ul className="hidden md:flex items-center gap-[30px]">
             <li className="p-2 font-semibold font-main hover:bg-gray-100 rounded-lg hover:text-[#004AAB] transition-all duration-100">
-              <Link href={`#`}>{t("Home")}</Link>
+              <Link href={`/${locale}`}>{t("Home")}</Link>
             </li>
             <li className="p-2 font-semibold font-main hover:bg-gray-100 rounded-lg hover:text-[#004AAB] transition-all duration-100">
               <Link href={`#`}>{t("Class")}</Link>
             </li>
             <li className="p-2 font-semibold font-main hover:bg-gray-100 rounded-lg hover:text-[#004AAB] transition-all duration-100">
-              <Link href={`#`}>{t("Contact")}</Link>
+              <Link href={`/${locale}/contact`}>{t("Contact")}</Link>
             </li>
           </ul>
         </div>
 
         {/* Right Section */}
-        <div className="flex items-center">
+        <div className="flex items-centers">
           {/* Language switcher always visible */}
           <LocaleSwitcher />
 

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern To-Do App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">MyTodo</h1>
+      <ul class="flex space-x-6 text-sm font-semibold">
+        <li><a href="#todo" class="hover:text-blue-500">To-Do</a></li>
+        <li><a href="#blog" class="hover:text-blue-500">Blog</a></li>
+        <li><a href="#slider" class="hover:text-blue-500">Slider</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- To-Do Section -->
+  <section id="todo" class="container mx-auto p-6 mt-6 bg-white rounded-xl shadow">
+    <h2 class="text-xl font-bold mb-4">📝 To-Do List</h2>
+    <div class="flex gap-2 mb-4">
+      <input id="todo-input" type="text" placeholder="Add a task..." class="flex-1 p-2 border rounded" />
+      <button id="add-btn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add</button>
+    </div>
+    <ul id="todo-list" class="space-y-2"></ul>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="container mx-auto mt-10 px-6">
+    <h2 class="text-xl font-bold mb-4">📚 Blog Cards</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold mb-2">Tips Produktivitas</h3>
+        <p class="text-sm text-gray-600">Gunakan metode Pomodoro dan prioritaskan tugas harian.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold mb-2">Manajemen Waktu</h3>
+        <p class="text-sm text-gray-600">Buat jadwal mingguan dan hindari multitasking berlebih.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold mb-2">Fokus Maksimal</h3>
+        <p class="text-sm text-gray-600">Kurangi distraksi digital saat bekerja.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slider Section -->
+  <section id="slider" class="container mx-auto mt-10 px-6">
+    <h2 class="text-xl font-bold mb-4">📷 Slider</h2>
+    <div class="relative overflow-hidden rounded-lg shadow">
+      <div class="flex transition-all duration-500" id="slider-track">
+        <img src="https://source.unsplash.com/600x300/?nature" class="w-full" />
+        <img src="https://source.unsplash.com/600x300/?city" class="w-full" />
+        <img src="https://source.unsplash.com/600x300/?technology" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center text-sm py-4 mt-12 shadow-inner">
+    © 2025 MyTodo. Built with ❤️ using Tailwind CSS & TypeScript.
+  </footer>
+
+  <!-- TypeScript (via script tag, compiled by browser with type="module") -->
+  <script type="module">
+    interface Todo {
+      id: number;
+      text: string;
+    }
+
+    const todoInput = document.getElementById('todo-input') as HTMLInputElement;
+    const addBtn = document.getElementById('add-btn') as HTMLButtonElement;
+    const todoList = document.getElementById('todo-list') as HTMLUListElement;
+
+    let todos: Todo[] = [];
+
+    function renderTodos() {
+      todoList.innerHTML = '';
+      todos.forEach(todo => {
+        const li = document.createElement('li');
+        li.className = 'flex justify-between items-center bg-gray-50 px-3 py-2 rounded shadow-sm';
+        li.innerHTML = `
+          <span>${todo.text}</span>
+          <div class="space-x-2">
+            <button class="edit-btn text-blue-600 text-sm">Edit</button>
+            <button class="delete-btn text-red-600 text-sm">Delete</button>
+          </div>
+        `;
+        // Event: Edit
+        li.querySelector('.edit-btn')?.addEventListener('click', () => {
+          const newText = prompt('Edit task:', todo.text);
+          if (newText) {
+            todo.text = newText;
+            renderTodos();
+          }
+        });
+        // Event: Delete
+        li.querySelector('.delete-btn')?.addEventListener('click', () => {
+          todos = todos.filter(t => t.id !== todo.id);
+          renderTodos();
+        });
+        todoList.appendChild(li);
+      });
+    }
+
+    addBtn.addEventListener('click', () => {
+      const text = todoInput.value.trim();
+      if (text) {
+        todos.push({ id: Date.now(), text });
+        todoInput.value = '';
+        renderTodos();
+      }
+    });
+
+    // Slider Functionality
+    let currentIndex = 0;
+    const sliderTrack = document.getElementById('slider-track')!;
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % 3;
+      sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }, 3000);
+  </script>
+
+</body>
+</html>

@@ -47,6 +47,191 @@
       "Subtitle": "    Subscribe untuk Dapetin Informasi Kelas Terbaru Kami dan Promo Menarik Lainnya!"
     }
   },
+  "PrivacyPolicy": {
+    "Title": "Kebijakan Privasi",
+    "Subtitle": "Dgamedev Academy berkomitmen untuk melindungi privasi Anda",
+    "Introduction": "Di Dgamedev Academy, kami sangat menghargai privasi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasi Anda saat Anda menggunakan layanan kami.",
+    "InformationCollected": {
+      "Title": "Informasi yang Kami Kumpulkan",
+      "Description": "Kami dapat mengumpulkan berbagai jenis informasi, termasuk:",
+      "Items": [
+        {
+          "Title": "Informasi Pribadi",
+          "Description": "Nama, alamat email, nomor telepon, dan informasi kontak lainnya yang Anda berikan saat mendaftar atau berkomunikasi dengan kami."
+        },
+        {
+          "Title": "Informasi Penggunaan",
+          "Description": "Bagaimana Anda menggunakan layanan kami, termasuk halaman yang Anda kunjungi, fitur yang Anda gunakan, dan tindakan yang Anda lakukan."
+        },
+        {
+          "Title": "Informasi Perangkat",
+          "Description": "Data tentang perangkat yang Anda gunakan untuk mengakses layanan kami, seperti jenis perangkat, sistem operasi, dan pengidentifikasi perangkat unik."
+        },
+        {
+          "Title": "Data Log",
+          "Description": "Alamat IP, waktu akses, dan data diagnostik lainnya saat Anda menggunakan layanan kami."
+        }
+      ]
+    },
+    "HowWeUseInformation": {
+      "Title": "Bagaimana Kami Menggunakan Informasi Anda",
+      "Description": "Kami menggunakan informasi yang kami kumpulkan untuk:",
+      "Items": [
+        "Menyediakan, memelihara, dan meningkatkan layanan kami",
+        "Memproses transaksi dan mengirimkan pemberitahuan terkait transaksi",
+        "Mengirimkan pembaruan, pemberitahuan, pengumuman, dan materi pemasaran",
+        "Merespons permintaan dan pertanyaan Anda",
+        "Memantau dan menganalisis tren, penggunaan, dan aktivitas untuk meningkatkan layanan kami",
+        "Mendeteksi, mencegah, dan mengatasi masalah teknis, keamanan, atau penipuan"
+      ]
+    },
+    "InformationDisclosure": {
+      "Title": "Pengungkapan Informasi",
+      "Description": "Kami dapat membagikan informasi Anda dengan:",
+      "Items": [
+        {
+          "Title": "Penyedia Layanan",
+          "Description": "Perusahaan yang melakukan layanan atas nama kami, seperti pemrosesan pembayaran, analisis data, pengiriman email, dan layanan dukungan pelanggan."
+        },
+        {
+          "Title": "Mitra Bisnis",
+          "Description": "Kami dapat membagikan informasi dengan mitra bisnis untuk menawarkan produk, layanan, atau promosi kepada Anda."
+        },
+        {
+          "Title": "Kepatuhan Hukum",
+          "Description": "Kami dapat mengungkapkan informasi jika diwajibkan oleh hukum atau dalam menanggapi permintaan yang sah dari otoritas publik."
+        }
+      ]
+    },
+    "DataSecurity": {
+      "Title": "Keamanan Data",
+      "Description": "Kami menerapkan langkah-langkah keamanan yang dirancang untuk melindungi informasi Anda dari akses yang tidak sah dan penyalahgunaan. Namun, tidak ada metode transmisi atau penyimpanan elektronik yang 100% aman, dan kami tidak dapat menjamin keamanan absolut."
+    },
+    "CookiesAndTracking": {
+      "Title": "Cookie dan Teknologi Pelacakan",
+      "Description": "Kami menggunakan cookie dan teknologi pelacakan serupa untuk mengumpulkan dan melacak informasi tentang penggunaan layanan kami. Anda dapat mengontrol penggunaan cookie melalui pengaturan browser Anda."
+    },
+    "YourPrivacyRights": {
+      "Title": "Hak Privasi Anda",
+      "Description": "Tergantung pada lokasi Anda, Anda mungkin memiliki hak tertentu terkait dengan informasi pribadi Anda, termasuk:",
+      "Items": [
+        "Mengakses data pribadi yang kami miliki tentang Anda",
+        "Meminta koreksi atau penghapusan data Anda",
+        "Membatasi atau menolak pemrosesan data Anda",
+        "Meminta portabilitas data Anda",
+        "Menarik persetujuan Anda kapan saja"
+      ]
+    },
+    "PolicyChanges": {
+      "Title": "Perubahan pada Kebijakan Privasi Ini",
+      "Description": "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini dan memperbarui tanggal \"terakhir diperbarui\"."
+    },
+    "ContactUs": {
+      "Title": "Hubungi Kami",
+      "Description": "Jika Anda memiliki pertanyaan atau kekhawatiran tentang Kebijakan Privasi kami atau praktik data kami, silakan hubungi kami di:",
+      "CompanyName": "Dgamedev Academy",
+      "Email": "privacy@dgamedev.academy",
+      "Phone": "+62 123 4567 890"
+    },
+    "LastUpdated": "Terakhir diperbarui: 1 Mei 2025"
+  },
+  "TermsAndConditions": {
+      "Title": "Syarat dan Ketentuan",
+      "Subtitle": "Syarat dan Ketentuan Penggunaan Layanan DGameDevAcademy",
+      "Introduction": "Selamat datang di DGameDevAcademy! Dengan mengakses atau menggunakan layanan DGameDevAcademy, Anda menyetujui untuk terikat oleh syarat dan ketentuan ini. Harap baca seluruh dokumen ini dengan seksama sebelum menggunakan platform kami.",
+      
+      "GeneralProvisions": {
+        "Title": "Ketentuan Umum",
+        "Description": "DGameDevAcademy menyediakan layanan pendidikan dan pelatihan pengembangan game secara online. Ketentuan berikut mengatur penggunaan layanan kami:",
+        "Items": [
+          "DGameDevAcademy berhak untuk mengubah, menangguhkan, atau menghentikan layanan kapan saja tanpa pemberitahuan.",
+          "Dengan menggunakan layanan kami, Anda menyatakan bahwa Anda berusia minimal 18 tahun atau memiliki izin dari orang tua atau wali jika berusia di bawah 18 tahun.",
+          "Anda bertanggung jawab untuk menjaga kerahasiaan informasi akun Anda dan membatasi akses ke perangkat Anda.",
+          "DGameDevAcademy berhak menolak layanan kepada siapa pun dengan alasan apa pun tanpa pemberitahuan sebelumnya."
+        ]
+      },
+  
+      "IntellectualProperty": {
+        "Title": "Hak Kekayaan Intelektual",
+        "Description": "Konten yang tersedia melalui DGameDevAcademy dilindungi oleh hukum hak cipta dan kekayaan intelektual:",
+        "Items": [
+          "Semua materi kursus, video, tutorial, kode sumber, logo, merek dagang, dan konten lainnya adalah milik DGameDevAcademy atau pemberi lisensinya.",
+          "Anda tidak diperbolehkan untuk mendistribusikan ulang, menjual, menyewakan, mentransfer, mereproduksi, memodifikasi, atau menggunakan konten DGameDevAcademy untuk tujuan komersial tanpa izin tertulis.",
+          "Anda dapat menggunakan konten untuk pembelajaran pribadi sesuai dengan ketentuan lisensi yang disertakan dengan materi kursus.",
+          "Proyek yang Anda kembangkan menggunakan keterampilan yang dipelajari dari kursus kami adalah milik Anda, tetapi materi kursus itu sendiri tetap menjadi milik DGameDevAcademy."
+        ]
+      },
+  
+      "ServiceDescription": {
+        "Title": "Deskripsi Layanan",
+        "Description": "DGameDevAcademy menyediakan platform pendidikan online dengan fokus pada pengembangan game. Layanan kami mencakup kursus video, tutorial, proyek praktik, forum diskusi, dan sumber daya pembelajaran lainnya. Kami berusaha menyediakan konten berkualitas tinggi, namun tidak menjamin bahwa layanan akan selalu tersedia tanpa gangguan atau bahwa semua materi akan cocok untuk semua kebutuhan pembelajaran. Kami terus meningkatkan konten dan fitur platform sesuai dengan perkembangan industri game."
+      },
+  
+      "UserObligations": {
+        "Title": "Kewajiban Pengguna",
+        "Description": "Sebagai pengguna DGameDevAcademy, Anda memiliki kewajiban berikut:",
+        "Items": [
+          {
+            "Title": "Penggunaan yang Tepat",
+            "Description": "Anda setuju untuk menggunakan layanan sesuai dengan hukum yang berlaku dan tidak melakukan aktivitas ilegal atau berbahaya melalui platform kami."
+          },
+          {
+            "Title": "Konten Pengguna",
+            "Description": "Jika Anda mengunggah atau membagikan konten di platform kami, Anda bertanggung jawab untuk memastikan bahwa konten tersebut tidak melanggar hak kekayaan intelektual pihak ketiga."
+          },
+          {
+            "Title": "Keamanan Akun",
+            "Description": "Anda bertanggung jawab untuk menjaga kerahasiaan kredensial akun Anda dan segala aktivitas yang terjadi dengan akun tersebut."
+          },
+          {
+            "Title": "Perilaku Komunitas",
+            "Description": "Anda setuju untuk berinteraksi dengan pengguna lain dengan hormat dan tidak terlibat dalam perilaku pelecehan, intimidasi, atau diskriminasi."
+          }
+        ]
+      },
+  
+      "AccountAndRegistration": {
+        "Title": "Akun dan Pendaftaran",
+        "Description": "Untuk mengakses fitur tertentu pada platform DGameDevAcademy, Anda perlu membuat akun. Saat mendaftar, Anda harus memberikan informasi yang akurat dan lengkap. Anda bertanggung jawab untuk memperbarui informasi akun agar tetap akurat. Setiap orang hanya boleh memiliki satu akun, dan Anda tidak diperbolehkan untuk membagikan akses ke akun Anda dengan orang lain. DGameDevAcademy berhak untuk menangguhkan atau menghentikan akun yang melanggar ketentuan ini."
+      },
+  
+      "PaymentTerms": {
+        "Title": "Ketentuan Pembayaran",
+        "Description": "Beberapa kursus dan fitur di DGameDevAcademy mungkin memerlukan pembayaran. Harga ditampilkan dalam mata uang yang berlaku dan sudah termasuk pajak yang relevan. Pembayaran diproses melalui penyedia layanan pembayaran pihak ketiga. Dengan melakukan pembelian, Anda setuju untuk membayar jumlah yang ditentukan. Semua pembayaran bersifat non-refundable kecuali dinyatakan lain dalam kebijakan pengembalian dana kami. DGameDevAcademy berhak mengubah harga layanan kapan saja, tetapi perubahan tersebut tidak akan memengaruhi pembelian yang telah dilakukan sebelumnya."
+      },
+  
+      "LimitationOfLiability": {
+        "Title": "Batasan Tanggung Jawab",
+        "Description": "DGameDevAcademy menyediakan layanan 'sebagaimana adanya' tanpa jaminan apa pun, baik tersurat maupun tersirat. Kami berupaya menyediakan informasi yang akurat, namun:",
+        "Items": [
+          "DGameDevAcademy tidak bertanggung jawab atas kerugian atau kerusakan yang timbul dari penggunaan layanan kami, termasuk namun tidak terbatas pada kerugian langsung, tidak langsung, insidental, konsekuensial, atau punitif.",
+          "Kami tidak menjamin bahwa platform akan selalu aman, bebas dari kesalahan, atau tersedia tanpa gangguan.",
+          "DGameDevAcademy tidak bertanggung jawab atas konten yang dibuat oleh pengguna atau pihak ketiga.",
+          "Kami tidak memberikan jaminan bahwa informasi yang diberikan dalam kursus kami selalu terbaru atau akurat, meskipun kami berusaha memperbarui konten secara berkala.",
+          "Dalam hal apa pun, total tanggung jawab DGameDevAcademy tidak akan melebihi jumlah yang telah Anda bayarkan untuk layanan kami dalam 12 bulan terakhir."
+        ]
+      },
+  
+      "Termination": {
+        "Title": "Penghentian",
+        "Description": "DGameDevAcademy berhak, atas kebijakan kami sendiri, untuk menghentikan atau menangguhkan akses Anda ke layanan kapan saja tanpa pemberitahuan sebelumnya jika Anda melanggar Syarat dan Ketentuan ini. Anda juga dapat menghentikan penggunaan layanan kapan saja dengan berhenti menggunakan platform dan/atau menghapus akun Anda. Setelah penghentian, ketentuan yang secara wajar harus tetap berlaku akan terus berlaku, termasuk ketentuan tentang kekayaan intelektual, batasan tanggung jawab, dan penyelesaian sengketa."
+      },
+  
+      "GoverningLaw": {
+        "Title": "Hukum yang Berlaku",
+        "Description": "Syarat dan Ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum Indonesia. Setiap sengketa yang timbul dari atau terkait dengan Syarat dan Ketentuan ini akan diselesaikan oleh pengadilan yang memiliki yurisdiksi di Indonesia. Jika ketentuan apa pun dalam Syarat dan Ketentuan ini dianggap tidak sah atau tidak dapat diterapkan, ketentuan tersebut akan dihapus tanpa memengaruhi ketentuan lainnya."
+      },
+  
+      "ContactUs": {
+        "Title": "Hubungi Kami",
+        "Description": "Jika Anda memiliki pertanyaan atau kekhawatiran tentang Syarat dan Ketentuan ini, silakan hubungi kami:",
+        "CompanyName": "DGameDevAcademy",
+        "Email": "support@dgamedevacademy.com",
+        "Phone": "+62 812 3456 7890"
+      },
+  
+      "LastUpdated": "Terakhir diperbarui: 4 Mei 2025"
+  },
   "Navigation" : {
     "Home" : "Beranda",
     "Class" : "Kelas",
