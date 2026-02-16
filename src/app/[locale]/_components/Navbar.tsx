@@ -17,14 +17,14 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 px-[10px] md:px-[20px] container max-w-screen mx-auto z-50 my-4">
-       <nav className="flex items-center justify-between bg-white px-4 py-3  rounded-[20px]">
+       <nav className="flex items-center justify-between bg-white bg px-4 py-3  rounded-[20px]">
         {/* Left Section (Logo + Menu) */}
         <div className="flex items-center gap-8">
           {/* Logo */}
           <Image
             height={500}
             width={500}
-            src="/assets/Logo-2.png"
+            src="/assets/ThetaLogo.png"
             alt="logo"
             className="size-[50px] md:size-[65px]"
           />

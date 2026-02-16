@@ -17,9 +17,9 @@ export default function Footer() {
         {/* Logo dan Social Media Section - Kiri */}
         <div className="flex flex-col gap-6 md:gap-10">
           <div className="flex items-center gap-3">
-            <div className="flex shrink-0 h-[48px] md:h-[43px] overflow-hidden">
+            <div className="flex shrink-0  overflow-hidden">
               <img
-                src="/assets/Logo.png"
+                src="/assets/theta_logo_64x64.svg"
                 className="object-contain w-full h-full"
                 alt="logo"
               />
@@ -29,7 +29,7 @@ export default function Footer() {
                 id="CompanyName"
                 className="font-extrabold text-lg md:text-xl leading-tight md:leading-[30px] text-white"
               >
-                DGAMEDEV ACADEMY
+                THETA ACADEMY
               </p>
               <p id="CompanyTagline" className="text-xs md:text-sm text-white max-w-[300px] mt-2">
                 {t("TagLine.TagLine")}
@@ -119,14 +119,14 @@ export default function Footer() {
       {/* Watermark besar untuk desktop */}
       <div className="absolute -bottom-[135px] w-full max-w-auto hidden md:block">
         <p className="font-extrabold md:text-[60px] lg:text-[100px] leading-[375px] text-center text-white opacity-5">
-          DGAMEDEV ACADEMY
+          THETA ACADEMY
         </p>
       </div>
       
       {/* Watermark untuk mobile - diubah untuk perfect centering */}
       <div className="absolute left-0 right-0 -bottom-[50px] w-full md:hidden">
         <p className="font-extrabold text-2xl leading-[150px] text-center text-white opacity-5 mx-auto">
-          DGAMEDEV ACADEMY
+          THETA ACADEMY
         </p>
       </div>
     </footer>

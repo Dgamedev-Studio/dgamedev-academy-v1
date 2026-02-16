@@ -3,7 +3,7 @@
     "HeroSection": "START YOUR JOURNEY",
     "Button": "Explore Classes",
     "WhyChooseUs": {
-      "Title": "Why Choose Dgamedev ",
+      "Title": "Why Choose Theta ",
       "why-one" : "Project-Based Learning",
       "why-two" : "Mentor & Facilitator Support 24/7",
       "why-three" : "Interactive & Enjoyable Curriculum",
@@ -13,7 +13,7 @@
     },
     "Course": {
       "Title": "Our Classes - Choose Your Learning Path!",
-      "Description": "At DGameDev Academy, we offer a variety of classes designed for all levels. Whether you want to start from scratch or deepen your coding skills? We have the perfect option for you!",
+      "Description": "At Theta Academy, we offer a variety of classes designed for all levels. Whether you want to start from scratch or deepen your coding skills? We have the perfect option for you!",
         "Level": {
           "All": "All Levels",
           "Junior": "Junior Engineer",

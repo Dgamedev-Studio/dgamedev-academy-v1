@@ -14,26 +14,26 @@ const anton = Anton({
 });
 
 export const metadata = {
-  title: 'Dgamedev Academy',
-  description: 'Dgamedev Academy - Learn Fun Programming',
-  keywords: 'Dgamedev, Academy, Programming, Fun, Learn, Education, Coding, Kids Programming',
-  authors: [{ name: 'Dgamedev Academy' }],
+  title: 'Theta Academy',
+  description: 'Theta Academy - Learn Fun Programming',
+  keywords: 'Theta, Academy, Programming, Fun, Learn, Education, Coding, Kids Programming',
+  authors: [{ name: 'Theta Academy' }],
   icons: {
-    icon: '/assets/Logo.png', 
+    icon: '/assets/theta_logo_192x192.png', 
   },
-  creator: 'Dgamedev Academy',
-  publisher: 'Dgamedev Academy',
+  creator: 'Theta Academy',
+  publisher: 'Theta Academy',
   openGraph: {
-    title: 'Dgamedev Academy',
-    description: 'Dgamedev Academy - Learn Fun Programming',
+    title: 'Theta Academy',
+    description: 'Theta Academy - Learn Fun Programming',
     url: '',
-    siteName: 'Dgamedev Academy',
+    siteName: 'Theta Academy',
     images: [
       {
-        url: '/assets/Logo-2.png',
+        url: '/assets/theta_logo.png',
         width: 1200,
         height: 630,
-        alt: 'Dgamedev Academy - Learn Fun Programming',
+        alt: 'Theta Academy - Learn Fun Programming',
       },
     ],
   }
