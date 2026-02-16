@@ -1,11 +1,8 @@
 "use client";
 
 import React from "react";
-import { useTranslations } from "next-intl";
 
 export default function ContactPage() {
-  const t = useTranslations("");
-
   return (
     <div className="bg-[#F5F6FB] min-h-screen pt-18 md:pt-24">
       <main className="max-w-full mx-auto px-4 py-12 sm:px-6 lg:px-8">
